@@ -31,6 +31,10 @@ client.connect((err) => {
     .db(`${process.env.DB_NAME}`)
     .collection("orders");
 
+  app.get("/", (req, res) => {
+    res.send("It's working successfully");
+  });
+
   //to add single product
   app.post("/addProduct", (req, res) => {
     const products = req.body;
