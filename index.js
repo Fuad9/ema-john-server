@@ -13,7 +13,7 @@ app.use(cors());
 
 var admin = require("firebase-admin");
 
-var serviceAccount = require(DB_SERVICE_ACCOUNT);
+var serviceAccount = require("./ema-john-simple-c3f01-firebase-adminsdk-nyvwu-54b7d31fa8.json");
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
