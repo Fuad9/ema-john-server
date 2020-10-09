@@ -5,6 +5,7 @@ require("dotenv").config();
 const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.9ibda.mongodb.net/${process.env.DB_NAME}?retryWrites=true&w=majority`;
 const MongoClient = require("mongodb").MongoClient;
 var admin = require("firebase-admin");
+const port = 5000;
 
 const app = express();
 app.use(bodyParser.json());
@@ -12,7 +13,7 @@ app.use(cors());
 
 var admin = require("firebase-admin");
 
-var serviceAccount = require("./configs/ema-john-simple-c3f01-firebase-adminsdk-nyvwu-54b7d31fa8.json");
+var serviceAccount = require(DB_SERVICE_ACCOUNT);
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
@@ -99,4 +100,4 @@ client.connect((err) => {
   });
 });
 
-app.listen(5000, () => console.log("listening at 5000"));
+app.listen(process.env.PORT || port, () => console.log("listening at 5000"));
