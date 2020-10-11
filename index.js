@@ -51,6 +51,16 @@ client.connect((err) => {
     });
   });
 
+  // //to load all products
+  // app.get("/products", (req, res) => {
+  //   const search = req.query.search;
+  //   productsCollection
+  //     .find({ name: { $regex: search } })
+  //     .toArray((err, documents) => {
+  //       res.send(documents);
+  //     });
+  // });
+
   //to load single product
   app.get("/product/:key", (req, res) => {
     productsCollection
