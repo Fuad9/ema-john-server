@@ -1,8 +1,9 @@
 # Ema John Commerce 
 
-<img src="https://i.ibb.co/kMwZyJk/emaJohn.png" alt="ema john simple" />
+<img src="https://i.ibb.co/T4SLQNw/ema1.png" alt="ema john simple" />
 
-This project live link is here [Click here](https://ema-john-simple-c3f01.web.app/).
+This project live link is here [Click here](https://ema-john-simple-c3f01.web.app/)
+Client: [Click here](https://github.com/Fuad9/ema-john-simple)
 
 ### About this Project
 
