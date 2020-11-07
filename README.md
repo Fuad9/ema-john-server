@@ -4,7 +4,7 @@
 
 This project live link is here [Click here](https://ema-john-simple-c3f01.web.app/)
 <br />
-Client: [Click here](https://github.com/Fuad9/ema-john-simple)
+Code: [Client](https://github.com/Fuad9/ema-john-simple)
 
 ### About this Project
 
